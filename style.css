@@ -1,0 +1,180 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+/*A-CLEARFIX*/
+.row:before,
+.row:after {
+    content: "";
+    display: block;
+}
+
+.row:after {
+    clear: both;
+}
+
+
+*:focus {
+    box-shadow: none!important;
+}
+
+    /*BODY*/
+
+body {
+    background-position: initial;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #000;
+}
+.navbar-toggler {
+    margin-right: 1rem;
+}
+
+.btn {border-radius:0;}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.box {
+  box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+
+.box-in {
+    box-shadow: inset 0px 0px 24px 0px rgba(226, 226, 226, 1);
+}
+
+.sticky-top {
+    z-index: 3;
+    background: #fff;
+}
+
+.margin-top {
+    margin-top: 5%;
+}
+
+.margin-bottom {
+    margin-bottom: 5%;
+} 
+
+.btn-color {
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+}
+
+.btn-color:hover {
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+    transition: all 0.33s ease-out 0s;
+}
+
+.hero {
+    background-color: red;
+    /*background-image: url('images/bg.jpg');*/
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    z-index: 1;
+}
+
+.logo {
+    height: 80px;
+    padding:10px;
+}
+
+.logobig {
+    height: 140px;
+}
+
+.actives {
+    font-weight: 500;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.1) ;
+    color: #000;
+}
+
+.actives:hover {
+    transition: all 0.33s ease-out 0s;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+
+
+.mapbg img {
+    background-size: contain;
+    background-position: center;
+    height: 500px;
+}
+
+.address {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+
+nav {
+
+font-size: 1.2rem;
+font-weight: 700;
+text-transform: uppercase;
+} 
+
+
+.icon {
+    height: 1.6rem;
+}
+
+.offer img {
+    max-height: 10rem;
+}
+
+.offer p {
+    font-size: 1.5rem;
+}
+
+.offer h3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.bcg, .bcg1 {
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.bcg img {
+    height: 200px;
+}
+
+.bcg1 {
+    padding: 1rem;
+}
+
+.bcg1 img {
+    height: auto;
+    width: 100%;
+}
+/*
+.casess img {
+    filter: contrast(2) grayscale(1);
+}
+
+.casess img:hover {
+    filter: contrast(1) grayscale(0);
+}
+*/
+
+.text-lg {
+    font-size: 1.5rem;
+    margin: 5%;
+}
+
+
+.footer {
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    margin-bottom: 0;
+    width: 100%;
+}
